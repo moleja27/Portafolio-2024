@@ -21,12 +21,12 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">START</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME </a></li>
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -44,11 +44,10 @@
             <h1>Alejandra Marin</h1>
             <h2>Front-end - Developer (Junior)</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-skype"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-solid fa-rss"></i></a>
+                <a href="https://www.facebook.com/aleja.restrepo.505960"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://join.skype.com/invite/wNPgCW8icj7R"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://www.linkedin.com/in/alejandra-r-978093143/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
     </section>
@@ -56,7 +55,7 @@
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
+            <h2>About me</h2>
             <p><span>Hello, I am Alejandra Marin.</span> I have extensive knowledge of web development, with a focus on
                 creating interactive and well-structured web pages. My current areas of study and expertise include:</p>
             <ul>
@@ -154,10 +153,12 @@
                     </div>
                 </div>
             </div>
-            <button>
-                Descargar CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
+            <a href="./cv/Alejandra CV 2024 programacion.pdf" download>
+                <button>
+                    Download CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
         </div>
     </section>
 
@@ -172,7 +173,7 @@
                     <div class="skill">
                         <span>Javascript</span>
                         <div class="barra-skill">
-                            <div class="progreso">
+                            <div class="progreso-js">
                                 <span>50%</span>
                             </div>
                         </div>
@@ -180,15 +181,15 @@
                     <div class="skill">
                         <span>HTML & CSS</span>
                         <div class="barra-skill">
-                            <div class="progreso">
-                                <span>70%</span>
+                            <div class="progreso-html">
+                                <span class="span-html">70%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
                         <span>Boostrap</span>
                         <div class="barra-skill">
-                            <div class="progreso">
+                            <div class="progreso-boostrap">
                                 <span>50%</span>
                             </div>
                         </div>
@@ -196,16 +197,16 @@
                     <div class="skill">
                         <span>React</span>
                         <div class="barra-skill">
-                            <div class="progreso">
-                                <span>40%</span>
+                            <div class="progreso-react">
+                                <span class="span-react">40%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
                         <span>SQL</span>
                         <div class="barra-skill">
-                            <div class="progreso">
-                                <span>40%</span>
+                            <div class="progreso-sql">
+                                <span class="span-react">40%</span>
                             </div>
                         </div>
                     </div>
@@ -214,34 +215,34 @@
                 <div class="col">
                     <h3>Professional Skills</h3>
                     <div class="skill">
-                        <span>Comunicación</span>
+                        <span>Comunication</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>80%</span>
+                                <span class="span-c">80%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Trabajo en Equipo</span>
+                        <span>Team Work</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>70%</span>
+                                <span class="span-c">80%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Creatividad</span>
+                        <span>Creativity</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>99%</span>
+                                <span class="span-cre">90%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Dedicación</span>
+                        <span>Dedication</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>65%</span>
+                                <span class="span-dec">70%</span>
                             </div>
                         </div>
                     </div>
@@ -249,7 +250,7 @@
                         <span>Proyect Management</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>94%</span>
+                                <span class="span-cre">90%</span>
                             </div>
                         </div>
                     </div>
@@ -266,34 +267,56 @@
                 <div class="col izquierda">
                     <h3>Educación</h3>
                     <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
-                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
-                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Tecnology in Human Resources</h4>
+                        <span class="casa">SENA Servicio Nacional de Aprendizaje</span>
+                        <span class="fecha">2016 - 2018</span>
+                        <p>Responsible for identifying staffing needs, designing and executing effective recruitment and
+                            selection processes to fill vacancies, including designing and publishing job offers,
+                            reviewing resumes, conducting interviews and selecting the most suitable candidates for the
+                            job.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
                     <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
-                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
-                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Front end-Developer</h4>
+                        <span class="casa">Sunds Gården Folkhögskola</span>
+                        <span class="fecha">2024 6 months finished</span>
+                        <p>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Figma</li>
+                            <li>Modern design libraries</li>
+                            <li>Modern frameworks</li>
+                            <li>Git/GitHub</li>
+                            <li>Visual Studio Code</li>
+                            <li>Programming techniques</li>
+                            <li>Agile work</li>
+
+                        </ul>
+
+
+                        </p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
                     <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
-                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
-                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>IT - Backend Developer </h4>
+                        <span class="casa">Sunds Gården Folkhögskola</span>
+                        <span class="fecha">2024 - 6 months currently Studying</span>
+                        <p>Focus is on relevant back-end programming language with a focus on object-oriented
+                            programming as well as working with databases. We work partially in teams of 2-5
+                            participants in each team and partially individually. </p>
+                        <ul>
+                            <li>Node.js </li>
+                            <li>SQL and NoSQL </li>
+                            <li>REST API: modeling, process, and production </li>
+                            <li>Http protocol </li>
+                            <li>Validation and security</li>
+                        </ul>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -301,36 +324,41 @@
                 </div>
 
                 <div class="col derecha">
-                    <h3>Experiencia de trabajo</h3>
+                    <h3>the best projects</h3>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
-                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
-                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Task Manager</h4>
+                        <span class="casa">ASSIGMENT-TASK-MANAGER-APP</span>
+                        <span class="fecha">April 19 /2024</span>https://github.com/moleja27/ASSIGMENT-TASK-MANAGER-APP
+                        <p>It is an app structured with prompts where you can save a list of tasks and delete and select
+                            according to time order. just use javascript</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
-                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
-                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Personal-Information</h4>
+                        <span class="casa">CRUD-Personal-Information</span>
+                        <span class="fecha"></span>
+                        <p>https://github.com/moleja27/CRUD-Personal-Information.git
+                            It is a page where you can save customer information such as their name, email number. You
+                            can save it, list it and delete it, something very useful for almost all web pages</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora
-                            recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta
-                            aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Memory-Game</h4>
+                        <span class="casa"></span>
+                        <spam class="fecha">2005 - 2008</span>
+                            <span>https://github.com/moleja27/Memory-Game
+                        </spam>
+
+                        <p> 'This game was developed using modern web technologies to provide an engaging and
+                            interactive
+                            experience. The project demonstrates my proficiency in front-end and back-end
+                            development,
+                            as well as my ability to integrate various tools and frameworks.'</p>
+                        <p>I used React + Vite, javascript and Tailwind CSS:</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -346,45 +374,48 @@
             <h2>PORTFOLIO</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <img src="img/p1.jpg" alt="">
+                    <img src="./img/javascript.png" alt="crud" style="width: 300px; height: 300px; object-fit: cover;">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Web page Crud</h3>
+                        <p>Javascript</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p2.jpg" alt="">
+                    <img src="./img/Skärmbild 2024-05-15 120016.png" alt="memory game"
+                        style="width: 300px; height: 300px; object-fit: cover;">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Memory Game</h3>
+                        <p>React</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p3.jpg" alt="">
+                    <img src="./img/Bhromaon.png" alt="Bhromaon"
+                        style="width: 300px; height: 300px; object-fit: cover;">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Bhromaon hotel</h3>
+                        <p>Web page</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p4.jpg" alt="">
+                    <img src="./img/Productly.png" alt="pagina web"
+                        style="width: 300px; height: 300px; object-fit: cover;">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Productly</h3>
+                        <p>Web page</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p5.jpg" alt="">
+                    <img src="./img/GRID.png" alt="pagina web" style="width: 300px; height: 300px; object-fit: cover;">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Web page </h3>
+                        <p>Grid css</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p6.jpg" alt="">
+                    <img src="./img/trivia.png" alt="trivia" style="width: 300px; height: 300px; object-fit: cover;">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Web Page</h3>
+                        <p>API</p>
                     </div>
                 </div>
             </div>
@@ -394,17 +425,17 @@
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
         <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
+            <h2>CONTACT</h2>
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Mail address">
+                    <input type="text" placeholder="Thopic">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Messages"></textarea>
                     <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        Send Messages<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
                 </div>
@@ -415,15 +446,15 @@
                         <ul>
                             <li>
                                 <i class="fa-solid fa-location-dot"></i>
-                                Nicaragua 159, San Rafael Mza
+                                Sweden, Umeå
                             </li>
                             <li>
                                 <i class="fa-solid fa-mobile-screen"></i>
-                                Llamanos: 2384 - 4343443
+                                Call: 724441399
                             </li>
                             <li>
                                 <i class="fa-solid fa-envelope"></i>
-                                Email: cw@example.com
+                                Email: monicsalejandra887@gmail.com
                             </li>
                         </ul>
                     </div>
@@ -438,11 +469,9 @@
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-skype"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-solid fa-rss"></i></a>
+            <a href="https://www.facebook.com/aleja.restrepo.505960"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://join.skype.com/invite/wNPgCW8icj7R"><i class="fa-brands fa-skype"></i></a>
+            <a href="https://www.linkedin.com/in/alejandra-r-978093143/"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
     </footer>
 
