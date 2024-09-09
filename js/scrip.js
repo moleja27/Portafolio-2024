@@ -1,3 +1,4 @@
+import localStorage from 'localStorage';
 let menuVisible = false;
 //Función que oculta o muestra el menu
 function mostrarOcultarMenu() {
@@ -36,6 +37,38 @@ function efectoHabilidades() {
 
 
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
-window.onscroll = function () {
-    efectoHabilidades();
-} 
+//window.onscroll = function () {
+// efectoHabilidades();
+//}
+
+//funcionalidad del formulario
+
+// Select the form element
+const formulario1 = document.querySelector("#formulario1");
+
+// Add an event listener for form submission
+formulario1.addEventListener("submit", evento => {
+    // Prevent the default form submission behavior
+    evento.preventDefault();
+
+    // Create a FormData object to capture the form data
+    const formData = new FormData(formulario1);
+
+    // Convert the FormData to a plain object (optional)
+    const datosFormulario = {};
+    formData.forEach((value, key) => {
+        datosFormulario[key] = value;
+    });
+
+    // Now you can do something with the form data
+    console.log(datosFormulario);
+
+    // For example, store it in localStorage
+    localStorage.setItem("formData", JSON.stringify(datosFormulario));
+
+    // Or do something else with the form data (e.g., send it to a server)
+});
+
+
+
+

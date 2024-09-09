@@ -55,7 +55,7 @@
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
-            <h2>About me</h2>
+            <h2>About me </h2>
             <p><span>Hello, I am Alejandra Marin.</span> I have extensive knowledge of web development, with a focus on
                 creating interactive and well-structured web pages. My current areas of study and expertise include:</p>
             <ul>
@@ -217,7 +217,7 @@
                     <div class="skill">
                         <span>Comunication</span>
                         <div class="barra-skill">
-                            <div class="progreso">
+                            <div class="progreso-com">
                                 <span class="span-c">80%</span>
                             </div>
                         </div>
@@ -225,7 +225,7 @@
                     <div class="skill">
                         <span>Team Work</span>
                         <div class="barra-skill">
-                            <div class="progreso">
+                            <div class="progreso-team">
                                 <span class="span-c">80%</span>
                             </div>
                         </div>
@@ -233,7 +233,7 @@
                     <div class="skill">
                         <span>Creativity</span>
                         <div class="barra-skill">
-                            <div class="progreso">
+                            <div class="progreso-crea">
                                 <span class="span-cre">90%</span>
                             </div>
                         </div>
@@ -241,7 +241,7 @@
                     <div class="skill">
                         <span>Dedication</span>
                         <div class="barra-skill">
-                            <div class="progreso">
+                            <div class="progreso-ded">
                                 <span class="span-dec">70%</span>
                             </div>
                         </div>
@@ -249,7 +249,7 @@
                     <div class="skill">
                         <span>Proyect Management</span>
                         <div class="barra-skill">
-                            <div class="progreso">
+                            <div class="progreso-pro">
                                 <span class="span-cre">90%</span>
                             </div>
                         </div>
@@ -428,7 +428,7 @@
             <h2>CONTACT</h2>
             <div class="fila">
                 <!-- Formulario -->
-                <div class="col">
+                <div class="col" id="formulario1"> <!--se agrego un id para utilizarlo en el localStorage -->
                     <input type="text" placeholder="Your Name">
                     <input type="text" placeholder="Phone Number">
                     <input type="text" placeholder="Mail address">
@@ -441,7 +441,16 @@
                 </div>
                 <!-- Mapa -->
                 <div class="col">
-                    <img src="img/ubicacion.png" alt="">
+
+                    <!-- link google maps -->
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13491.589712158882!2d20.2971247817773!3d63.82209310924804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467c5afc94d74fab%3A0x7b1acc1b6377bcd9!2sPetrus%20Laestadius%20v%C3%A4g%2C%20Ume%C3%A5!5e0!3m2!1sen!2sse!4v1724246385289!5m2!1sen!2sse"
+                        width="600" height="555" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <!-- informacion Personal -->
+
                     <div class="info">
                         <ul>
                             <li>
@@ -465,6 +474,7 @@
 
     <!-- footer -->
     <footer>
+
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
@@ -473,9 +483,10 @@
             <a href="https://join.skype.com/invite/wNPgCW8icj7R"><i class="fa-brands fa-skype"></i></a>
             <a href="https://www.linkedin.com/in/alejandra-r-978093143/"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
+
     </footer>
 
-    <script src="./js/scrip.js"></script>
+    <script src="/js/scrip.js"></script>
 </body>
 
 </html>

@@ -360,6 +360,63 @@ html {
     border-radius: 20px 0 0 20px;
 }
 
+.progreso-com {
+    background-color: #1CB698;
+    height: 100%;
+    width: 80%;
+    line-height: 20px;
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+    border-radius: 20px 0 0 20px;
+}
+
+.progreso-team {
+    background-color: #1CB698;
+    height: 100%;
+    width: 80%;
+    line-height: 20px;
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+    border-radius: 20px 0 0 20px;
+}
+
+.progreso-crea {
+    background-color: #1CB698;
+    height: 100%;
+    width: 90%;
+    line-height: 20px;
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+    border-radius: 20px 0 0 20px;
+}
+
+.progreso-ded {
+    background-color: #1CB698;
+    height: 100%;
+    width: 70%;
+    line-height: 20px;
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+    border-radius: 20px 0 0 20px;
+}
+
+.progreso-pro {
+    background-color: #1CB698;
+    height: 100%;
+    width: 90%;
+    line-height: 20px;
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+    border-radius: 20px 0 0 20px;
+}
+
+
+
 
 
 
@@ -413,7 +470,7 @@ html {
     line-height: 40px;
     text-align: center;
     top: -17px;
-    right: -39px;
+    right: 66px;
     font-size: 14px;
 }
 
@@ -426,7 +483,20 @@ html {
     line-height: 40px;
     text-align: center;
     top: -17px;
-    right: -39px;
+    right: 34px;
+    font-size: 14px;
+}
+
+.skills .skill .barra-skill .span-dec {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: 120px;
     font-size: 14px;
 }
 
@@ -855,7 +925,7 @@ html {
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
